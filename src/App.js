@@ -1,9 +1,9 @@
-
+import Intro from '../src/components/intro.jsx'
 
 function App() {
   return (
-    <div className="App">
-      <h2>THis is app js</h2>
+    <div>
+      <Intro></Intro>
     </div>
   );
 }
