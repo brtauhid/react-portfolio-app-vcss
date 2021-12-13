@@ -1,5 +1,7 @@
 import React from 'react';
-import "./intro.css"
+import "./intro.css";
+import tauhidImg from '../../img/tauhid.png';
+import scrollDown from '../../img/scroll.png';
 
 const intro = () => {
     return (
@@ -17,9 +19,18 @@ const intro = () => {
                             <div className="i-title-item">Content Creator</div>
                         </div>
                     </div>
+                    <p className="i-desc">
+                        I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.
+                    </p>
+                    <div className="i-scroll">
+                        <img src={scrollDown} alt="" />
+                    </div>
                 </div>
             </div>
-            <div className="i-right">right</div>
+            <div className="i-right">
+                <div className="i-bg"></div>
+                <img src={tauhidImg} className="i-img" alt="" />
+            </div>
         </div>
     );
 };
