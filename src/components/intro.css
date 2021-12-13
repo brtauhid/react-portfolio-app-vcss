@@ -5,9 +5,11 @@
 
 .i-left{
     flex:1;
+    background-color: rgb(139, 111, 102);
 }
 .i-right{
     flex:1;
+    background-color:rgb(186, 202, 112);
 }
 
 .i-left-wrapper {
